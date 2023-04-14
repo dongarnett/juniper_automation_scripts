@@ -1,12 +1,9 @@
 # juniper_automation_scripts
 
-Directory of related files
- 
-Format: $username/$repository
- 
-  
- 
- 
+
+Directory of repositories 
+
+
 1. juniper_automation_fpc_util_avg: 
 returns the average FPC CPU/Mem utilization over a user supplied interval period
 
