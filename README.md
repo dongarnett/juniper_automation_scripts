@@ -13,5 +13,8 @@ returns any processes that have consumed but not freed memory buffers
 3. junos_syslog_check: 
 obtain and analyze system log message types present on a target device
 
-4. juniper_automation_rtable_conv: 
+4. junos_syslog_check_multidut:
+junos_syslog_check: obtain and analyze system log message types on a list of target devices obtained from an external text file
+
+5. juniper_automation_rtable_conv: 
 determines the time it takes for routing tables (RIB/FIB) to converge after a fail trigger action is performed
