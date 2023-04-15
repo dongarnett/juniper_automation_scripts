@@ -14,7 +14,13 @@ returns any processes that have consumed but not freed memory buffers
 obtain and analyze system log message types present on a target device
 
 4. junos_syslog_check_multidut:
-junos_syslog_check: obtain and analyze system log message types on a list of target devices obtained from an external text file
+junos_syslog_check: obtain and analyze system log message types on a list of target devices obtained from an external user supplied text file
 
-5. juniper_automation_rtable_conv: 
+5. junos_chassis_alarm_check_multidut:
+This tool checks for active chassis alarms across a list of target devices obtained from an external user supplied text file
+
+6. junos_core_dump_check_multidut:
+This tool checks for existing core dumps across a list of target devices obtained from an external user supplied text file
+
+7. juniper_automation_rtable_conv: 
 determines the time it takes for routing tables (RIB/FIB) to converge after a fail trigger action is performed
